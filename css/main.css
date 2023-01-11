@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #202122;
+}
+
+.head {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #eeeeee;
+    /* background-image: linear-gradient(180deg, #fff, #EEEEEE); */
+
+}
+
+
+.side-panel-container {
+  background-color: #EEEEEE;
+  position: absolute;
+  width: 10rem;
+  padding: 10px;
+  margin-bottom: -51%;
+  padding-bottom: 51%;
+}
+.wiki-logo{
+  display: block;
+  margin: auto;
+}
+.links-container{
+  padding: 22px 22px 0px 22px;
+}
+.sidebar-links{
+  font-size: 0.75em;
+}
+
+p{
+  font-size: .85em;
+  margin: 0 0 2px 0;
+}
+
+.body{
+  position: absolute;
+  z-index: 1;
+  width: 85%;
+  margin: 80px 0px 0px 200px;
+}
+
+h1{
+  font-size: 1.8em;
+  font-family: 'Linux Libertine','Georgia','Times',serif;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+hr{
+  margin: 2px 0 8px 0;
+}
+
+.body p{
+  font-size: .875em;
+  line-height: 1.6;
+}
+
+table{
+  background-color: #f8f9fa;
+  border: solid;
+  border-width: .8px;
+  font-size:  small;
+  padding: 5px;
+}
+
+.table1{
+    width: 250px;
+    margin: 5px;
+    float: right;
+}
+.table1 th,td{
+    padding: 5px;
+}
+
+table th{
+  text-align: left;;
+}
+.table2 td{
+  font-size: 95%;
+  line-height: .8;
+}
+
+.table2 th a{
+  font-size: 0.9em;
+}
+
+h2{
+  font-size: 1.5em;
+  font-family: 'Linux Libertine','Georgia','Times',serif;
+  line-height: 1.3;
+  font-weight: normal;
+  margin-bottom: 0;
+}
