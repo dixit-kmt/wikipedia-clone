@@ -5,6 +5,11 @@ body{
   color: #202122;
 }
 
+caption{
+  font-weight: bold;
+  text-align: center;
+}
+
 .head {
     position: absolute;
     top: 0;
